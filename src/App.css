@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 65%;
+    border-radius: 5px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.rNavi {
+    position: fixed;
+    right: 10px;
+    width: 16%;
+    background-color: white;
+    margin: 7px 0;
+    /* padding: 15px; */
+    border-radius: 5px;
+    box-shadow: 0 5px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.rNavi > .item {
+    position: relative;
+    height: 50px;
+}
+
+.rNavi > .item > .item_img {
+    position: absolute;
+    height: 100%;
+}
+
+.rNavi > .item > .item_title {
+    position: absolute;
+    margin-left: 50px;
+    /* width: calc(100% - 50px); */
+    /* height: 100%; */
+}
