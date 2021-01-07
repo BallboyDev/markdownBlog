@@ -1,7 +1,6 @@
 import React from 'react';
-import Js from './image/Js.png';
-import Java from './image/java.jpg';
-import Python from './image/python.jpg';
+import NaviItem from './NaviItem';
+
 
 export default class ContentNavi extends React.Component {
 
@@ -10,10 +9,12 @@ export default class ContentNavi extends React.Component {
     render = () => {
         return (
             <div className='rNavi'>
-                <div className='item'>
-                    <img src={Js} alt='javascript' className='item_img' />
-                    <div className='item_title'>test</div>
-                </div>
+                <NaviItem title="일하기 싫다" category='js' />
+                <NaviItem title="진짜 일하기 싫다" category='py' />
+                <NaviItem title="너무 하기 싫다" category='java' />
+                <NaviItem title="레알루 싫다" category='java' />
+                <NaviItem title="참트루 싫다" category='py' />
+                <NaviItem title="내일 출근 실화???" category='js' />
             </div>
         )
     }

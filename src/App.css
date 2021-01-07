@@ -16,6 +16,7 @@
     position: fixed;
     right: 10px;
     width: 16%;
+    /* width: 15rem; */
     background-color: white;
     margin: 7px 0;
     /* padding: 15px; */
@@ -27,16 +28,23 @@
 .rNavi > .item {
     position: relative;
     height: 50px;
+    border-bottom: solid 1.5px rgb(219, 219, 219);
 }
 
 .rNavi > .item > .item_img {
+    padding: 10px;
+    border-radius: 15px;
     position: absolute;
     height: 100%;
 }
 
-.rNavi > .item > .item_title {
+.rNavi > .item > div {
     position: absolute;
-    margin-left: 50px;
-    /* width: calc(100% - 50px); */
-    /* height: 100%; */
+    display: table-cell;
+    margin-left: 50px;   
+}
+
+.rNavi > .item >  .title {
+    line-height: 50px;
+    /* font-size: 25px; */
 }
